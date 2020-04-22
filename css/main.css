@@ -1,0 +1,313 @@
+/* custon properties */
+
+@font-face {
+    font-family: 'nexa_regular';
+    src: url('../fonts/nexaregular-webfont.woff2'), url('../fonts/nexaregular-webfont.woff');
+}
+
+@font-face {
+    font-family: 'nexa_boldregular';
+    src: url('../fonts/nexa_bold-webfont.woff2') format('woff2'), url('../fonts/nexa_bold-webfont.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'nexa_black_italicregular';
+    src: url('../fonts/nexa-black-italic-webfont.woff2') format('woff2'), url('../fonts/nexa-black-italic-webfont.woff') format('woff');
+}
+
+:root {
+    --main-font: 'Realway';
+    --font-size: 16px;
+    --line-height: 1.6;
+    --main-color: rgb(255, 77, 32);
+    --main-modal-color: rgb(19, 18, 18);
+    --main-segundario: rgb(233, 135, 38);
+    --bg-dark: rgb(19, 18, 18);
+    --bg-dark-secundario: rgb(0, 0, 0);
+    --bg-color: rgb(255, 255, 255);
+    --action-color: rgb(255, 255, 255);
+    --action-color-mision: rgb(248, 248, 248);
+    --ction-color-final: rgb(212, 98, 21);
+    --logo-height: 4rem;
+    --logo-spacing: .5rem;
+}
+
+
+/* reset styles */
+
+html {
+    font-family: var(--main-font);
+    font-size: var(--font-size);
+    line-height: var( --line-height);
+}
+
+body {
+    background-color: white;
+    font-family: 'nexa_regular';
+    font-weight: normal;
+}
+
+.nav-item:hover {
+    background-color: var(--main-color);
+    transition: all .3s ease;
+}
+
+
+/**************  My style ***********/
+
+.logo-inicio {
+    margin-top: 20px;
+    margin-left: 60px;
+}
+
+.u-flowText {
+    font-size: 1.rem;
+}
+
+.container1 {
+    height: 100%;
+    width: 100%;
+}
+
+.HeroImage1 {
+    padding: 18%;
+    min-height: calc(100vh + var(--bg-dark));
+    background-size: auto;
+    background-color: rgb(32, 30, 30);
+    background-image: linear-gradient(135deg, rgb(15, 15, 15), rgb(15, 15, 15)79%);
+    background-image: linear-gradient(131deg, rgb(10, 9, 9), rgb(229, 226, 226));
+    overflow-x: hidden;
+}
+
+.HeroImage2 {
+    padding-top: 1%;
+    background-color: var(--main-color);
+    color: white;
+}
+
+.HeroImage3 {
+    padding: 10px;
+    background: var(--bg-color);
+}
+
+.u-fullScreen {
+    width: 100%;
+    min-height: 100vh;
+}
+
+.iconos7 {
+    font-size: 3rem;
+}
+
+.u-flowText2 {
+    font-size: 2.25rem;
+    color: white;
+}
+
+.u-flowText2-text {
+    color: var(--bg-color);
+    font-size: 1.1em;
+    font-family: 'nexa_regular';
+    font-weight: normal;
+    font-style: normal
+}
+
+.camara-color-blanco {
+    background-color: var(--bg-color);
+}
+
+.img-familia {
+    margin-left: 2px;
+}
+
+.HeroImage2 {
+    padding-top: 0%;
+}
+
+.container4 {
+    background-color: var(--main-segundario);
+    padding-top: 7%;
+}
+
+.fondo-mision {
+    background-color: white;
+}
+
+.HeroImage5 {
+    margin: 40px;
+    background-color: var(--action-color-mision);
+    padding: 150px;
+    background-image: url('../img/Equipo.jpg');
+    background-repeat: no-repeat;
+    background-position: 50%, 60%;
+}
+
+.HeroImage7 {
+    background-color: black;
+}
+
+.box1 {
+    padding: 6%;
+    background: var(--main-segundario);
+    margin: 40px;
+}
+
+.mision-box {
+    padding: 20px;
+}
+
+.img-box1 {
+    margin-left: 30px;
+}
+
+.box-mision1 {
+    margin-right: 10px;
+    margin-top: 200px;
+    background: var(--action-color-mision);
+    padding: 10px;
+}
+
+.box-mision2 {
+    margin-top: 200px;
+    background: var(--action-color-mision);
+}
+
+.img-manos {
+    padding: 30px;
+}
+
+.HeroImage6 {
+    background: black;
+    padding: 5%;
+    background-image: url('../img/Valores.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 75%;
+}
+
+.container6 {
+    margin-top: 70px;
+}
+
+.card-title {
+    font-family: 'nexa_boldregular';
+    font-weight: normal;
+    font-style: normal;
+    margin-top: -40px;
+    background: #be4913;
+    padding: 6px;
+}
+
+.card {
+    border: 0px;
+}
+
+.u-flowText {
+    font-size: 2.25rem;
+}
+
+.img-responsive {
+    width: 100%;
+}
+
+.img-center {
+    display: block;
+    margin: auto;
+}
+
+.t1 {
+    font-size: 3em;
+}
+
+.p2 {
+    font-size: 2em;
+}
+
+.t3 {
+    font-size: 2.5em;
+    font-family: 'nexa_boldregular';
+    font-weight: normal;
+    font-style: normal;
+}
+
+.t4 {
+    color: var(--bg-color);
+    font-family: 'nexa_black_italicregular';
+    font-weight: normal;
+    font-style: normal;
+}
+
+.camara1 {
+    margin-left: 400px;
+    margin-top: -270px;
+}
+
+.fa-whatsapp:before {
+    content: "\f232";
+    color: var( --main-color);
+}
+
+.fa-instagram:before {
+    content: "\f16d";
+    color: var( --main-color);
+}
+
+.fa-github:before {
+    content: "\f09b";
+    color: var( --main-color);
+}
+
+.fa-twitter:before {
+    content: "\f099";
+    color: var( --main-color);
+}
+
+.fa-facebook:before {
+    content: "\f09a";
+    color: var( --main-color);
+}
+
+
+/**************  Media queris small ***********/
+
+@media(min-width: 576px) {}
+
+
+/**************  Media Queris Medium ***********/
+
+@media(min-width: 768px) {
+    .valores-container {
+        height: 100%;
+    }
+    .valores-container .card {
+        height: 100%;
+    }
+    .valores-container .box-mision1 {
+        height: 80%;
+    }
+}
+
+
+/**************   Media Queris Large ***********/
+
+@media(min-width: 992px) {
+    .nav-item:hover {
+        background-color: transparent;
+    }
+}
+
+
+/**************  Media Queris Estralarge  ***********/
+
+@media(min-width: 1200px) {}
+
+@media(max-width: 767px) {
+    #seguridad .img-responsive {
+        max-width: 450px;
+    }
+    .u-flowText {
+        font-size: 1rem;
+    }
+    .t1 {
+        font-size: 2em;
+    }
+}
